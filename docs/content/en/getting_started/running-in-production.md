@@ -1,6 +1,6 @@
 ---
 title: "Running in production"
-description: "For use in Produciton environments, performance tweaks and backups are recommended."
+description: "For use in Production environments, performance tweaks and backups are recommended."
 draft: false
 weight: 4
 ---
@@ -80,6 +80,8 @@ You can execute the following command to see the configuration:
 and see what is in effect.
 
 ###### Asynchronous Imports
+
+*ASYNC imports are currently an experimental feature, which may not perform consistently.  Proceed with caution when using these methods.
 
 Import and Re-Import can also be configured to handle uploads asynchronously to aid in 
 processing especially large scans. It works by batching Findings and Endpoints by a 
