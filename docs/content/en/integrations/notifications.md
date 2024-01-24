@@ -44,7 +44,7 @@ This app can be created from scratch, or from a JSON manifest which includes all
 
 #### Scopes
 
-The following scopes have to be granted to the Slack App.
+The following scopes have to be granted to your Slack App.  If the App was created from the JSON Manifest above, these permission scopes will already be set correctly.
 
 ![Slack OAuth scopes](../../images/slack_scopes.png)
 
