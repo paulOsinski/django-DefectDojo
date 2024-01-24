@@ -1,0 +1,31 @@
+{
+  "_metadata": {
+    "major_version": 1,
+    "minor_version": 1
+  },
+  "display_information": {
+    "name": "DefectDojo",
+    "description": "Notifications from DefectDojo",
+    "background_color": "#0000AA"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "DefectDojo Notifications"
+    }
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "chat:write",
+        "chat:write.customize",
+        "chat:write.public",
+        "incoming-webhook",
+        "users:read",
+        "users:read.email"
+      ]
+    },
+    "redirect_urls": [
+      "https://slack.com/oauth/v2/authorize"
+    ]
+  }
+}
