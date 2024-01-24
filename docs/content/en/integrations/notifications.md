@@ -29,10 +29,6 @@ report has finished generating.
 
 Users can define notifications on a product level as well, and these settings will be applied only for selected products.
 
-Microsoft Teams does not provide an easy way to send messages to a personal
-channel. Therefore, DefectDojo can only send system scope notifications
-to Microsoft Teams.
-
 In order to identify and notify you about things like upcoming
 engagements, DefectDojo runs scheduled tasks for this purpose. These
 tasks are scheduled and run using Celery beat, so this needs to run for
@@ -42,25 +38,32 @@ DefectDojo allows `template` to be used, administrator can use this feature to d
 
 ### Slack
 
+DefectDojo can send messages to a Slack channel.  To configure Slack messaging, you will first need to create a new Slack app at https://api.slack.com/apps.
+
 #### Scopes
 
-The following scopes have to be granted.
+The following scopes have to be granted to the Slack App
 
 ![Slack OAuth scopes](../../images/slack_scopes.png)
 
 #### Token
 
-The bot token has to be chosen and put in your System Settings
+The Slack Bot Token needs to be pasted in the DefectDojo System Settings, nested underneath the 'Enable slack notifications' checkbox.  This token can be found in the Features / OAuth & Permissions section on the Slack App settings.
 
 ![Slack token](../../images/slack_tokens.png)
 
-#### What it generally looks like
+#### Examples of Slack notifications
 
 ![Add Product](../../images/slack_add_product.png)
 
 ![Import Scan](../../images/slack_import_scan.png)
 
+
 ### Microsoft Teams
+
+Microsoft Teams does not provide an easy way to send messages to a personal
+channel. Therefore, DefectDojo can only send system scope notifications
+to Microsoft Teams.
 
 To activate notifications to Microsoft Teams, you have to:
 - Configure an Incoming Webhook in a Teams channel and copy the URL of the webhook to the clipboard
