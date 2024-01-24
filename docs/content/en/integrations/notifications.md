@@ -38,7 +38,9 @@ DefectDojo allows `template` to be used, administrator can use this feature to d
 
 ### Slack
 
-DefectDojo can send messages to a Slack channel.  To configure Slack messaging, you will first need to create a new Slack app at https://api.slack.com/apps.
+DefectDojo can send messages to a Slack channel.  To configure Slack messaging, you will first need to create a new Slack app at https://api.slack.com/apps.  
+
+This app can be created from scratch, or from a JSON manifest which includes all necessary scopes and bot functionality: https://documentation.defectdojo.com/files/slackManifest.json
 
 #### Scopes
 
