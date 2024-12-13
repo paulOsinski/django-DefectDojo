@@ -10,7 +10,8 @@ For Open Source release notes, please see the [Releases page on GitHub](https://
 
 ## Dec 16, 2024: v2.41.2
 
-- **(Connectors)** Remove the 'Beta' logo from Connectors
+- **(Connectors)** Removed the 'Beta' logo from Connectors.
+
 
 ## Dec 9, 2024: v2.41.1
 
