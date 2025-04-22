@@ -10,7 +10,7 @@ For Open Source release notes, please see the [Releases page on GitHub](https://
 
 ## Apr 2025: v2.45
 
-### Apr 14, 2025: v2.45.2
+### Apr 22, 2025: v2.45.2
 
 - **(Beta UI)** Added a link to Universal Importer to the sidebar, which provides access to the [Universal Importer and DefectDojo CLI](/en/connecting_your_tools/external_tools/) tools.
 - **(Tools)** Updated Fortify Webinspect parser to handle Fortify's new XML report format.
