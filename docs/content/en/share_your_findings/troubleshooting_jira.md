@@ -55,6 +55,7 @@ curl -H "Authorization: Bearer ATATT1234567890abcdefghijklmnopqrstuvwxyz" https:
 
 
 ## Findings that I 'Push To Jira' do not appear in Jira
+
 Using the 'Push To Jira' workflow triggers an asynchronous process, however an Issue should be created in Jira fairly quickly after 'Push To Jira' is triggered.
 
 * Check your DefectDojo notifications to see if the process was successful.  If the push failed, you will get an error response from Jira in your notifications.
@@ -62,6 +63,7 @@ Using the 'Push To Jira' workflow triggers an asynchronous process, however an I
 Common reasons issues are not created:
 * The Default Issue Type you have selected is not usable with the Jira Project
 * Issues in the Project have required attributes that prevent them from being created via DefectDojo (see our guide to [Custom Fields](../jira_guide/#custom-fields-in-jira))
+* You've created a Project in Jira, but that Project does not have an associated Kanban or Scrum board for Issue workflows.
 
 
 ## Error: Product Misconfigured or no permissions in Jira?
