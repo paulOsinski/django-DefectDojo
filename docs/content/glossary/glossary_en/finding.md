@@ -20,3 +20,5 @@ Findings always have the following attributes:
 Findings are stored in:
 * An associated [Test], which is the main place a report is summarized in DefectDojo
 * An associated [Product Type], [Product], and [Engagement], three [Product Hierarchy] elements which categorize the [Test]
+
+For more information, see the [Working With Findings](/en/working_with_findings/intro_to_findings/) guides.
