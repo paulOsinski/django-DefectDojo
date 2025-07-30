@@ -102,7 +102,7 @@ The Express method allows for a quicker method of linking a Project. Use the Exp
 3. Enter an appropriate authetication method in the Username / Password fields for Jira:
     * For standard **username / password Jira authentication**, enter a Jira Username and corresponding Password in these fields.
     * For authentication with a **user's API token (Jira Cloud)** enter the Username with the corresponding **API token** in the password field.
-    * For authentication with a Jira **Personal Access Token (aka PAT, used in Jira Data Center and Jira Server only)**, enter the PAT in the password field.  Username is not used for authentication with a Jira PAT, but the field is still required in this form, so you can use a placeholder value here to identify your PAT.
+    * Authentication with a PAT is not possible in DefectDojo OS.
 ​
 4. Select the Default issue type which you want to create Issues as in Jira. The options for this are **Bug, Task, Story** and **Epic** (which are standard Jira issue types) as well as **Spike** and **Security**, which are custom issue types. If you have a different Issue Type which you want to use, please contact [support@defectdojo.com](mailto:support@defectdojo.com) for assistance.
 ​
@@ -173,6 +173,10 @@ If this menu doesn't list any Jira instances, confirm that those Projects are co
 This is the key of the Project that you want to use with DefectDojo.  The Project Key for a given project can be found in the URL.
 
 ![image](images/Add_a_Connected_Jira_Project_to_a_Product_3.png)
+
+#### Epic Issue Type Name
+
+This field should be set to 'Epic' by default.  If you use a different name for Epics in Jira, you can set this field to that name.
 
 #### Issue template
 
