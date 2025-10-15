@@ -101,8 +101,8 @@ This format applies the `WizParserByDetailedName` parser class.
 - Total data fields parsed: 36
 - Total data fields NOT parsed: 5
 
-<details>
-#### SCA Format Field Mapping Details
+
+#### SCA Format Field Mapping Table
 
 | CSV Field                                     | Finding Field                  | Parser Line # | Notes                                                                              |
 | --------------------------------------------- | ------------------------------ | ------------- | ---------------------------------------------------------------------------------- |
@@ -147,8 +147,6 @@ This format applies the `WizParserByDetailedName` parser class.
 | `InfoRelatedIssuesCount`                      | Not parsed                     | -             | Not used in mapping                                                                |
 | `OperatingSystem`                             | description                    | 150-154       | Added to description with "Operating System" prefix                                |
 | `IpAddresses`                                 | description                    | 150-154       | Added to description with "Ip Addresses" prefix                                    |
-
-</details>
 
 #### Additional Finding Field Settings (SCA Format)
 
