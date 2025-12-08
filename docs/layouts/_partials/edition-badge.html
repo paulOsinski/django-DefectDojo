@@ -1,0 +1,13 @@
+{{ with .Params.edition }}
+  {{ range . }}
+    {{ if eq . "os" }}
+      <span class="badge badge-os">Open-Source</span>
+    {{ else if eq . "pro" }}
+      <span class="badge badge-pro">DefectDojo Pro</span>
+    {{ else if eq . "cloud" }}
+      <span class="badge badge-pro">DefectDojo Cloud</span>
+    {{ else if eq . "onprem" }}
+      <span class="badge badge-pro">DefectDojo On-Prem</span>
+    {{ end }}
+  {{ end }}
+{{ end }}
